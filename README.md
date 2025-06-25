@@ -1,141 +1,60 @@
-# Parking lot
+# Analisador de Afinidade Musical
 
-**Número da Lista**: 1  
+**Número da Lista**: 4
 **Conteúdo da Disciplina**: FGA0124 - PROJETO DE ALGORITMOS - T01  
 
-
 ## Alunos
-
 
 <div align = "center">
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/BiancaPatrocinio7"><img style="border-radius: 50%;" src="https://github.com/BiancaPatrocinio7.png" width="190;" alt=""/><br /><sub><b>Bianca Patrocínio</b></sub></a><br /><a href="Link git" title="Rocketseat"></a></td>
+    <td align="center"><a href="https://github.com/BiancaPatrocinio7"><img style="border-radius: 50%;" src="https://github.com/BiancaPatrocinio7.png" width="190;" alt=""/><br /><sub><b>Bianca Patrocínio</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/leticiatmartins"><img style="border-radius: 50%;" src="https://github.com/leticiatmartins.png" width="190px;" alt=""/><br /><sub><b>Leticia Torres </b></sub></a><br />
   </tr>
 </table>
 
-| Matrícula   | Aluno                             |
-| ----------- | ---------------------------------- |
-| 22/1008801  | Bianca Patrocínio Castro           |
-| 20/2016702  | Leticia Torres Soares Martins      |
+| Matrícula    | Aluno                       |
+| ------------ | --------------------------- |
+| 22/1008801   | Bianca Patrocínio Castro    |
+| 20/2016702   | Leticia Torres Soares Martins |
 </div>
 
 ## Sobre 
-O sistema de estacionamento simula a alocação de vagas de estacionamento para clientes em um shopping, com 18 vagas e 6 lojas, utilizando algoritmos de grafos. O objetivo é encontrar a vaga mais próxima de uma loja específica usando a busca em largura (BFS).
+Este projeto tem como objetivo analisar e comparar gostos musicais. Utilizando o paradigma de **Dividir e Conquistar**, o sistema determina a similaridade entre as preferências musicais de um usuário e as de várias personalidades famosas.
+
+O algoritmo central é a **Contagem de Inversões**, que mede o quão "diferente" é a ordem do ranking de gêneros musicais do usuário em relação ao ranking de uma celebridade. Um número menor de inversões indica uma maior afinidade musical. A complexidade do algoritmo implementado é de $O(n \log n)$, garantindo uma análise eficiente.
 
 ## Screenshots
-<p align="center">
-  <img src="Documentos/screenshots/Print%201.png" alt="Print 1 do projeto" width="600"/>
-</p>
+*Substitua as imagens abaixo pelos prints do seu projeto em execução.*
 
 <p align="center">
-  <img src="Documentos/screenshots/Print%202.png" alt="Print 2 do projeto" width="600"/>
+  <i>Tela inicial, apresentando o programa ao usuário.</i><br>
+  <img src="caminho/para/seu/screenshot_1.png" alt="Tela inicial do projeto" width="700"/>
 </p>
-
+<hr>
 <p align="center">
-  <img src="Documentos/screenshots/Print%203.png" alt="Print 3 do projeto" width="600"/>
+  <i>Exemplo da interação, onde o usuário escolhe a ordem dos seus gêneros preferidos.</i><br>
+  <img src="caminho/para/seu/screenshot_2.png" alt="Usuário ranqueando os gêneros musicais" width="700"/>
 </p>
-
+<hr>
 <p align="center">
-  <img src="Documentos/screenshots/Print.png" alt="Print do projeto" width="600"/>
+  <i>Tela final, exibindo o ranking de celebridades com o gosto musical mais parecido.</i><br>
+  <img src="caminho/para/seu/screenshot_3.png" alt="Resultado final da análise" width="700"/>
 </p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%204.png" alt="Print 4 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%205.png" alt="Print 5 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%206.png" alt="Print 6 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%207.png" alt="Print 7 do projeto" width="600"/>
-</p>
-
-<p align="center">
-  <img src="Documentos/screenshots/Print%208.png" alt="Print 8 do projeto" width="600"/>
-</p>
-
-
 
 ## Instalação 
-**Linguagem**: C++
+**Linguagem**: Python
 
 ## Pré-requisitos
 
-Antes de rodar o projeto, você precisará ter os seguintes programas instalados:
+Antes de rodar o projeto, você precisará ter o **Python 3** instalado em seu sistema. Nenhuma biblioteca externa é necessária.
 
-- **g++** (compilador C++).
-- **make** (ferramenta de automação de builds).
-- **Graphviz (dot)** para gerar e visualizar os grafos do caminho.
+### Instalar Python
 
-### Instalar g++, make e dot
+#### No Windows:
+Baixe o instalador diretamente do [site oficial do Python](https://www.python.org/downloads/) e siga as instruções. **Lembre-se de marcar a opção "Add Python to PATH"** durante a instalação.
 
 #### No macOS:
-Se você usa macOS, pode instalar com o Homebrew:
-
+O Python 3 geralmente já vem instalado. Você pode verificar com o comando `python3 --version`. Caso precise instalar, use o [Homebrew](https://brew.sh/):
 ```bash
-brew install gcc make graphviz
-```
-
-#### No Linux (Ubuntu/Debian):
-No Linux, instale com:
-
-```bash
-sudo apt update
-sudo apt install build-essential graphviz
-```
-
-## Como compilar e executar o projeto
-### Passo 1: Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/Grafos-1-Parking-lot.git
-cd Grafos-1-Parking-lot
-```
-
-### Passo 2: Compilar o projeto
-Para compilar o projeto, use o comando make. Isso irá compilar todos os arquivos fonte e gerar o executável:
-
-```bash
-make
-```
-
-### Passo 3: Rodar o projeto
-Após a compilação, execute o programa gerado:
-
-```bash
-./Grafos-1-Parking-lot
-```
-
-## Uso 
-Após rodar o programa, escolha uma loja. O sistema encontrará a vaga mais próxima disponível usando o algoritmo BFS, e um grafo será gerado mostrando o caminho até essa vaga.
-
-O grafo será salvo como uma imagem `.png` no formato:
-
-```
-caminho_para_vaga_X.png
-```
-
-(onde `X` é o número da vaga).
-
-## Apresentação 
-
-<div align="center">
-<a href="https://youtu.be/PoJ3FK-J3wM?si=VLjQ5nK-w6U8Dh7-"><img src="https://i.imgur.com/nNBEJk2.png" width="50%"></a>
-</div>
-
-<font size="3"><p style="text-align: center">Autor: [Bianca Patrocínio](https://github.com/BiancaPatrocinio7) e [Letícia Torres](https://github.com/leticiatmartins).</p></font>
-
-
-## Outros 
-- O projeto usa a biblioteca Graphviz para gerar arquivos `.dot` e convertê-los em imagens PNG.
-- Se tiver problemas para visualizar as imagens, verifique se o `dot` está instalado corretamente.
-  
-
-
-
+brew install python
