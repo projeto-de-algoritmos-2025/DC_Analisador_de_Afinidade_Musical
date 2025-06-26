@@ -1,4 +1,3 @@
-# utils.py
 from data import GENEROS_MUSICAIS
 
 def obter_ranking_usuario():

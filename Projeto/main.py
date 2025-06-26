@@ -1,4 +1,3 @@
-# main.py
 from data import GOSTOS_FAMOSOS
 from comparador import comparar
 from utils import obter_ranking_usuario

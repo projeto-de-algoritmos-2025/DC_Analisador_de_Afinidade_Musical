@@ -1,4 +1,3 @@
-# comparador.py
 from algoritmo import contar_inversoes
 
 def comparar(ranking_user, gostos_famosos):

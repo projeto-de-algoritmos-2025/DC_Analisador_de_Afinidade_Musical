@@ -1,4 +1,3 @@
-# algoritmo.py
 def contar_inversoes(arr):
     _, total = _merge_sort(arr)
     return total
