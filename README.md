@@ -120,7 +120,7 @@ python3 gui.py
 Este projeto foi desenvolvido para fins acadêmicos com o objetivo de demonstrar uma aplicação prática do algoritmo de Contagem de Inversões. A implementação foi realizada em Python através de uma modificação do clássico algoritmo Merge Sort, o que garante uma solução eficiente sob o paradigma de Dividir e Conquistar.
 
 <div align="center">
-<a href="https://youtu.be/BuqdvTjvYt8?si=Oo-M2Ww2jL_tNSdO"><img src="Print2.png" width="50%"></a>
+<a href="https://youtu.be/tx-iWso1guE?si=0JcJjfdS03mmx4G2"><img src="Documentos/screenshots/image4.png" width="50%"></a>
 </div>
 
 
