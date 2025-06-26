@@ -1,7 +1,10 @@
 # Analisador de Afinidade Musical
 
 **Número da Lista**: 4
+
 **Conteúdo da Disciplina**: FGA0124 - PROJETO DE ALGORITMOS - T01  
+
+**Grupo**: 12
 
 ## Alunos
 
